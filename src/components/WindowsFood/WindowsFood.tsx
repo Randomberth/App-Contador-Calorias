@@ -36,12 +36,12 @@ const WindowsFood: FC<FwindowsFood> = ( {
         <View className='flex-row w-2/4 h-full ' >
           <View className='w-2/4 h-full'>
             <Text className='mt-5 ml-3 text-3xl semi-bold ' >Today</Text>
-            <Text className='mt-4 ml-2 text-xl font-bold' >Total: </Text>
-            <Text className='mt-3 ml-2 text-xl font-bold' >Consumed: </Text>
-            <Text className='mt-3 ml-2 text-xl font-bold' >Calories: </Text>
+            <Text className='mt-4 ml-1 text-xl font-bold' >Total: </Text>
+            <Text className='mt-3 ml-1 text-xl font-bold' >Consumed: </Text>
+            <Text className='mt-3 ml-1 text-xl font-bold' >Calories: </Text>
           </View>
           <View className='w-2/4 h-full'>
-            <Text className=' mt-16 ml-7 text-xl font-bold' >{recomendedCalories}</Text>
+            <Text className=' mt-[70] ml-7 text-xl font-bold' >{recomendedCalories}</Text>
             <Text className=' mt-3 ml-7 text-xl font-bold' >{consumedCalories}</Text>
             <Text className=' mt-3 ml-7 text-xl font-bold' >{remainingCalories}</Text>
           </View>
