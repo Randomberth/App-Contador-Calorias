@@ -13,7 +13,7 @@ const Header = () => {
     <View className='flex-row justify-center items-center m-6'>
         <View className='flex w-2/4 justify-center items-center'>
             <Text className='text-xl font-semibold'>Hello {stackInfo.name}</Text>
-            <Text className='text-lg font-semibold text-slate-500'>Welcom back to your goal</Text>
+            <Text className='text-lg mt-2 font-semibold text-slate-500'>Welcome </Text>
         </View>
         <View className='flex w-2/4 justify-center '>
         { canGoBack() ? (

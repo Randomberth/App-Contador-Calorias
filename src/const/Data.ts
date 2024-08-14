@@ -5,6 +5,6 @@ interface stackInfo {
 }
 
 export const stackInfo: stackInfo = {
-    name:'Alibert Villarroel',
+    name:'Aliberth',
     img: 'Mi Perfil',
 }
